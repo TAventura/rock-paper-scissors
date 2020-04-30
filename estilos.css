@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    margin: 1%;
+    background-color: #333;
+    color: #bbb;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+#seccion  {
+    margin: 1.5%;
+    display: none;
+    background-color: rgba(129, 5, 212, 0.3);
+}
+
+/* div {
+    margin: 2px solid white;
+} */
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 5vw;
+    margin-bottom: 1.5%;
+}
+
+img {
+    width: 18vw;
+    height: 18vw;
+}
+
+#resultados {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+/* button {
+    height: 5%;
+    width: 8%;
+} */

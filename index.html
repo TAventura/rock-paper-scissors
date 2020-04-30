@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock-paper-scissors</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header>
+        <h1>¡Bienvenidos al Piedra, Papel, Tijera definitivo!!!</h1>
+    </header>
+
+    <main>
+        <div id="seccion">
+            <h2>Juego Principal</h2>
+
+            <div class="flex-container">
+                <div>
+                    <p style="font-size: 2.5vw;">Tu elección:</p>
+                    <img id="imagenJugador" src="" alt="">
+                </div>
+                <div>VS</div>
+                <div>
+                    <p style="font-size: 2.5vw;">Mi elección:</p>
+                    <img id="imagenPc" src="" alt="">
+                </div>
+            </div>
+            
+            <div>
+                <div id="resultados">
+                    Ganaste/Perdiste<br>
+                    Resultados:<br>
+                    Vos 0pts vs Yo 0pts
+                </div>
+                <p>¿Qué vas a elegir la siguiente ronda?</p>
+                <button class="btn btn-outline-light" onclick="jugar('piedra')">Piedra</button>
+                <button class="btn btn-outline-light" onclick="jugar('papel')">Papel</button>
+                <button class="btn btn-outline-light" onclick="jugar('tijera')">Tijera</button>
+            </div>
+        </div>
+        <button id="btnEmpezar" class="btn btn-secondary" onclick="empezar()">Empezar</button>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
